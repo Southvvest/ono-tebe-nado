@@ -1,6 +1,6 @@
 /* место для вашего кода */
 .header {
-  background-color: #ff00ff;
+  /* background-color: #ff00ff; */
   display: flex;
   justify-content: center;
   font-size: 18px;
@@ -59,4 +59,69 @@
 
 .header__address {
 
+}
+.cover {
+  background-image: url("../images/oil-painting-beautiful-lotus-flower_1232-1978.png");
+  width: 100%;
+  max-width: 1100px;
+  height: 757px;
+}
+
+.cover__title {
+font-family: Raleway, sans-serif;
+font-size: 100px;
+font-weight: 700;
+line-height: 115px;
+letter-spacing: 0.3em;
+color: #fff;
+display: inline-flex;
+flex-direction: column;
+margin: 165px 50px 135px 50px;
+width: 100%;
+max-width: 1000px;
+height: 355px;
+}
+
+.aligned-text {
+  align-self: flex-start;
+}
+
+.aligned-text_center {
+  align-self: center;
+}
+
+.aligned-text_right {
+  align-self: flex-end;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-around;
+  }
+
+.cover__description-text {
+  text-transform: uppercase;
+  color: #fff;
+  word-spacing: 1rem;
+  text-align: center;
+  width: 637px;
+  height: 28px;
+  top: 667px;
+  left: 78px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.bet-button {
+  text-transform: uppercase;
+  width: 256px;
+  height: 51px;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 25.83px;
+  text-align: center;
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff
 }
