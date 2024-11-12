@@ -11,7 +11,7 @@
   }
 
 .header__menu {
-    width: 391px;
+    width: 398px;
 }
 
 .header__menu-list {
@@ -52,9 +52,7 @@
 
 .header__logo {
   display: block;
-  width: 100%;
-  max-width: 135px;
-  height: 100%;
+  max-width: 136px;
 }
 
 .header__contacts {
@@ -117,14 +115,14 @@
 
 .aligned-text_center {
   align-self: center;
-  line-height: 135px;
+  line-height: 136px;
 }
 
 .aligned-text_right {
   align-self: end;
   line-height: 100px;
   display: flex;
-  margin-right: -30px;
+  margin-right: -31px;
   align-items: center;
 }
 
@@ -135,8 +133,6 @@
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 0.3em;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   z-index: 1;
 }
 
@@ -350,6 +346,7 @@ justify-content: space-between;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 180px;
+  margin-bottom: 88px;
 }
 
 .footer__menu {
