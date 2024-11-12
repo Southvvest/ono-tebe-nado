@@ -297,7 +297,7 @@ justify-content: space-between;
 .about__column-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 35px;
   margin-right: 15px;
 }
@@ -315,7 +315,7 @@ justify-content: space-between;
 .about__logo-image {
   width: 148px;
   height: 114px;
-  place-self: center;
+  place-self: inherit;
 }
 
 .about__column-right {
@@ -378,7 +378,7 @@ justify-content: space-between;
   line-height: 21.13px;
   text-align: center;
   list-style-type: none;
-  text-underline-position: under;  
+  text-underline-position: under;
 }
 
 .footer__social-list {
