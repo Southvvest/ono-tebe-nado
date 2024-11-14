@@ -278,7 +278,6 @@ justify-content: space-between;
 
 .about {
   width: 1052px;
-  min-height: 595px;
   margin-right: 24px;
   margin-left: 24px;
   margin-top: 148px;
@@ -331,6 +330,7 @@ justify-content: space-between;
   width: 697px;
   display: grid;
   gap: 24px;
+  padding-top: 100px;
   padding-left: 9px;
   text-align: left;
 }
@@ -368,9 +368,8 @@ justify-content: space-between;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  justify-self: end;
   list-style-type: none;
-  margin-right: 49px;
+  margin-left: 77px;
 }
 
 .footer__social-icon {
